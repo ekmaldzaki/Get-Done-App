@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Get Done",
   description: "Help you write things to get it done.",
+  icons: {
+    icon: "/notepad.png",
+  },
 };
 
 export default function RootLayout({
